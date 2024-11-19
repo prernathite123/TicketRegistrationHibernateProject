@@ -164,11 +164,11 @@ public class TRPClass implements TRPInterface{
 
 	    Session session = sf.openSession();
 	    RegisterdUsers users = session.get(RegisterdUsers.class, a);
-	    if (users == null) {
-	        System.out.println("User not found!");
-	        session.close();
-	        return null;
-	    }
+//	    if (users == null) {
+//	        System.out.println("User not found!");
+//	        session.close();
+//	        return null;
+//	    }
 
 	    
 	    boolean flag = true;
